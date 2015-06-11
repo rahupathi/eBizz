@@ -19,4 +19,5 @@
     <color name="edt_pressed">#000000</color>
     <color name="edt_focused">#000000</color>
     <color name="edt_default">#000000</color>
+    <color name="edt_on">#000000</color>
 </resources>
