@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/list_view_bg"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Name"
+            android:id="@+id/tvDetName"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Url"
+            android:id="@+id/tvUrl"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ff1f08ff"
+            android:textSize="12dp"
+            android:paddingBottom="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@android:drawable/ic_menu_compass" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@android:drawable/ic_menu_myplaces" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_view_bg"
+        android:padding="10dp"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvDedAddress"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:textColor="#ff1400ff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvDetContact"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:textColor="#ff1400ff" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_action_addcontacts" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton2"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_action_share_contact" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton3"
+                android:layout_gravity="center_horizontal"
+                android:src="@android:drawable/sym_action_email" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_view_bg"
+        android:padding="10dp"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView15"
+            android:text="The business description usually begins with a short description of the industry. When describing the industry, discuss the present outlook as well as future possibilities. You should also provide information on all the various markets within the industry, including any new products or developments that will benefit or adversely affect your business. Base all of your observations on reliable data and be sure to footnote sources of information as appropriate. This is important if you&apos;re seeking funding; the investor will want to know just how dependable your information is, and won&apos;t risk money on assumptions or conjecture" />
+    </LinearLayout>
+
+</LinearLayout>

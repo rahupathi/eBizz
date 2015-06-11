@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="BmsWhite">#ffffff</color>
+    <color name="ShadowColor">#000000</color>
+    <color name="ButtonTextColor">#5d6153</color>
+    <color name="TextHintColor">#66C2FF</color>
+    <color name="InputHintColor">#85ADAD</color>
+    <color name="TextColorHighlight">#66C2FF</color>
+    <color name ="BmsBackground">#9DC9AF</color>
+    <color name="BmsTextViewColor">#33B5E5</color>
+    <color name="BmsItemSelected">#ffcfeffb</color>
+    <color name="sa_green">#14a804</color>
+    <color name="stacked_green">#118504</color>
+    <color name="accent_green">#97e08f</color>
+    <color name="primary">#009688</color>
+    <color name="primaryDark">#00796b</color>
+    <color name="accent">#eeff41</color>
+    <color name="accentLight">#F4FF81</color>
+    <color name="edt_pressed">#000000</color>
+    <color name="edt_focused">#000000</color>
+    <color name="edt_default">#000000</color>
+</resources>
